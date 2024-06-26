@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<fieldset><legend align="center"> Registration form</legend>
+<body>
+  <form>
+    <label for="firstname"></label>
+    Firstname:
+    <input type="text" placeholder="enter your firstname"/>
+    <label for="lastname"></label><br><br>
+    Lastname:
+    <input type="text" placeholder="enter your lastname"/><br><br>
+    <label for="mail"></label>Email:
+    <input type="text" required id="mail" placeholder="ex@gmail.com"><br><br>
+    <label for="dayofbirth"></label>Enter your date of birth
+    <input type="datetime-local" placeholder="DOB"/><br><br>
+    <label for="gender"> Gender</label>
+    <input type="radio" name="gender" value="male" id="gender"/>male
+
+    <label for="gender"> </label>
+    <input type="radio" name="gender" value="Female" id="gender"/>Female
+    
+    <br><br><label for="image"></label>
+    upload your image<br>
+   <input type="file"/>
+    <label for="number"></label><br><br>
+    phone number:
+    <input type="tel" id="number" pattern="[0-9]{5}"/><br><br>
+    <label for="address"></label> ADDRESS
+    <textarea></textarea><br><br>
+    <input type="submit"/>
+    <input type="submit" value="reset"/>
+
+    
+  </form></fieldset>
+</body>
+</html>
